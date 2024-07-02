@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard</title>
+
+    <link rel="stylesheet" href="CSS/overview/style.css">
+</head>
+
+<body class="body">
+
+    <aside class="aside container">
+        <div class="aside__head">
+            <img src="./images/assets/Logo.svg" alt="">
+            <h4>Dashboard</h4>
+        </div>
+        <div class="aside__body">
+            <div class="aside__item">
+                <img src="./images/assets/1.svg" alt="">
+                <p>Overview</p>
+            </div>
+            <div class="aside__item">
+                <img src="./images/assets/tickets.png" alt="">
+                <p>Tickets</p>
+            </div>
+            <div class="aside__item">
+                <img src="./images/assets/3.png" alt="">
+                <p>Ideas</p>
+            </div>
+            <div class="aside__item">
+                <img src="./images/assets/contacts.png" alt="">
+                <p>Contacts</p>
+            </div>
+            <div class="aside__item">
+                <img src="./images/assets/2.png" alt="">
+                <p>Agents</p>
+            </div>
+            <div class="aside__item">
+                <img src="./images/assets/4.png" alt="">
+                <p>Articles</p>
+            </div>
+        </div>
+        <div class="aside__bottom">
+            <div class="aside__item">
+                <img src="./images/assets/Vector.png" alt="">
+                <p>Change mode</p>
+            </div>
+            <div class="aside__item">
+                <img src="./images/assets/log.png" alt="">
+                <p>Logout</p>
+            </div>
+        </div>
+
+
+    </aside>
+    <div class="body__right">
+        <header>
+            <div class="container header__container">
+                <button class="hamburger__btn">
+                    <img class="hamburger__btn__img" src="images/hamburger.svg" alt="bar">
+                </button>
+                <div class="header__right">
+                    <h3 class="header__name__title">Jones Ferdinand</h3>
+                    <div>
+                        <img class="header__name__img" src="images/header.png" alt="img">
+                    </div>
+                </div>
+            </div>
+        </header>
+        <main>
+            <div class="container">
+                <div class="overview__wrapper">
+                    <h1 class="overview__title ">Overview</h1>
+                    <div class="overview__btn__wrapper">
+                        <img src="images/Dots.png" alt="img">
+                        <!-- <button class="overview__dots__btn">
+                        </button> -->
+                        <button class="overview__add__btn">add</button>
+                    </div>
+                </div>
+                <table class="table">
+                    <thead>
+                        <tr class="heading__tr">
+                            <th>Product</th>
+                            <th>Expiration Date</th>
+                            <th>Price $</th>
+                            <th>Count</th>
+                            <th>Category</th>
+                        </tr>
+                    </thead>
+                    <ul class="filter__categories"></ul>
+
+                    <tbody class="tbody">
+                        <!-- 1 -->
+                        <tr>
+
+                            <td class="owner__wrapper">
+                                <img src="images/savannah.png" alt="img">
+                                Savannah Nguyen
+                            </td>
+                            <td class="owner__date">1/15/12</td>
+                            <td class="owner__profits">$328.85</td>
+                            <td class="owner__losses">$779.58</td>
+                            <td class="owner__phone">(603) 555-0123</td>
+                        </tr>
+
+                    </tbody>
+                </table>
+            </div>
+        </main>
+    </div>
+    <script src="./app.js"></script>
+</body>
+
+</html>

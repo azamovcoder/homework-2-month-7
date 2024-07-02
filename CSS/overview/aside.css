@@ -1,0 +1,41 @@
+.body{
+    display: flex;
+    justify-content: space-between;
+}
+.aside{
+    position: sticky;
+    top: 0;
+    left: 0;
+    width: 20%;
+    height: 100vh;
+    background: #363740;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+}
+.aside__head{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+.aside__body{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+.aside__item{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    padding: 10px;
+    color: aliceblue;
+
+}
+.aside__item img{
+    width: 20px;
+}
+.body__right{
+    padding: 20px;
+}
